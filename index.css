@@ -1,0 +1,118 @@
+
+body{
+	margin-left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+ background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+a{
+	color: white;
+	font-size: 20px;
+}
+.perinfo{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.det{
+	flex-grow: 2;
+	font-size: 18px;
+	align-content: center;
+}
+.im{
+	padding-left: 100px;
+	padding-top: 50px;
+	border-radius: 100px;
+	padding-right: 300px;
+}
+.det span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.experience{
+  background: #E7E9BB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.exp{
+
+  position: relative;
+  animation: mymove 8s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 700px;}
+}
+.experience p{
+	font-size: 30px;
+}
+.experience span{
+	padding: 50px;
+
+}
+.tit{
+	font-size: 30px;
+	padding-top: 20px;
+
+	margin-bottom: 0px;
+}
+.project>div{
+	margin-left:30px; 
+}
+.abc{
+	padding-left: 100px;
+	font-size: 20px;
+}
+ol,li{
+	list-style: none;
+	font-size: 20px;
+}
+.skill{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	
+}
+.skill >div{
+	flex-grow: 1;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.project {
+ 
+  position: relative;
+  animation: mymoveo 3s infinite;
+}
+
+@keyframes mymoveo {
+  from {top: 0px;}
+  to {top: 20px;}
+}
+.skill p{
+	font-size: 30px;
+	padding-left: 10px;
+	justify-content: center;
+	align-content: center;
+}
+.skill { 
+ 
+  
+}
+.rewards{
+	display: flex;
+	flex-flow: column;
+}
+.RewardsAndCertification p{
+	font-size: 20px;
+	padding-left: 80px;
+}
