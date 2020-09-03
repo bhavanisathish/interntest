@@ -116,3 +116,16 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 	font-size: 20px;
 	padding-left: 80px;
 }
+
+@media screen and (max-width: 600px) {
+ .exp{
+
+  position: relative;
+  animation: mymove 8s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+}
